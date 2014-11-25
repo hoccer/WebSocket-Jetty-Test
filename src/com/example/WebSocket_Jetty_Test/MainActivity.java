@@ -3,7 +3,6 @@ package com.example.WebSocket_Jetty_Test;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.TextView;
 import org.eclipse.jetty.websocket.WebSocket;
 import org.eclipse.jetty.websocket.WebSocketClient;
@@ -49,8 +48,6 @@ public class MainActivity extends Activity {
     }
 
     public class WebSocketTest implements WebSocket {
-
-        public static final String TAG = "WebSocketTest";
 
         @Override
         public void onOpen(Connection connection) {
