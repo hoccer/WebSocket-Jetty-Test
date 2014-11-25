@@ -1,6 +1,7 @@
 .idea
 *.iml
 
+bin
 gen
 out
 local.properties
